@@ -1,0 +1,26 @@
+{
+  "name": "cofeemachine",
+  "version": "1.0.0",
+  "description": "Proyecto Maquina de cafe TDD",
+  "main": "index.js",
+  "scripts": {
+    "testWatch": "jest --watchAll",
+    "test": "jest"
+  },
+  "author": "ronald123ol",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/babel__core": "^7.1.16",
+    "@types/inquirer": "^8.1.3",
+    "@types/jest": "^27.0.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
